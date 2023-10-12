@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #ebebeb;
+}
+.container {
+    width: 1520px;
+    height: auto;
+    padding: 0px 40px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-container {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.header {
+    width: 100%;
+    height: 240px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 2px;
+
+    /* Style to text */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.web {
+    color: rgb(33, 190, 138);
+}
+.bdy {
+    width: 1520px - 80px;
+    height: auto;
+    padding: 2px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.bdy .side-container {
+    width: 25%;
+    height: auto;
+    padding: 5px;
+}
+.bdy .side-content {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+/* Style to profile */
+.side-content .profile {
+    width: 150px;
+    height: 150px;
+    background: gray;
+    border-radius: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.profile img {
+    width: 100%;
+}
+
+/* Left Side Content */
+.side-content .name {
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Contact styles */
+.side-content .contact {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f5f5f5;
+}
+.contact i {
+    margin-right: 30px;
+    color: rgb(33, 190, 138);
+}
+
+/* skill styles */
+.side-content .skill, .lang {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.skill i, .lang i {
+    margin-right: 20px;
+    color: rgb(33, 190, 138);
+}
+
+/* Skill-list style */
+.skill-list {
+    width: 100%;
+    height: auto;
+    margin: 15px 0px;
+}
+.skill-list .rate {
+    width: 100%;
+    height: 15px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+}
+.side-content .last {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f4f4f4;
+}
+.rate .avg {
+    width: 0;
+    height: 15px;
+    border-radius: 30px;
+    background-color: rgb(33, 190, 138);
+
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+}
+/* Skill1 */
+.rate .pds {
+    width: 70%;
+}
+/* Skill2 */
+.rate .ui {
+    width: 90%;
+}
+/* Skill3 */ 
+.rate .figma {
+    width: 80%;
+}
+/* Skill4 */
+.rate .fed {
+    width: 90%;
+}
+/* Lang 1 */
+.rate .khmer {
+    width: 95%;
+}
+/* Lang 2 */
+.rate .english {
+    width: 75%;
+}
+/* Lang 3 */
+.rate .chinese {
+    width: 30%;
+}
+.bdy .main-content {
+    width: 75%;
+    height: 100%;
+    padding: 5px 0 5px 5px;
+}
+/* Work Experience Style */
+.main-content .job-exp {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Work Experience Title */
+.job-exp .title {
+    font-size: 24px;
+}
+.job-exp .title i {
+    color: rgb(33, 190, 138);
+    margin-right: 10px;
+}
+
+/* Work exp container */
+.job-exp .work-exp {
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.job-exp .work-exp p {
+    margin: 15px 0px;
+}
+.work-exp .work-position {
+    font-size: 18px;
+    font-weight: 500;
+}
+.work-exp .duration i {
+    color: rgb(33, 190, 138);
+    margin-right: 15px;
+}
+
+
+/* Education Style */
+.main-content .edu {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+/* Education Title */
+.edu .title {
+    font-size: 24px;
+}
+.edu .title i {
+    color: rgb(33, 190, 138);
+    margin-right: 10px;
+}
+
+.edu .edu-details {
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.edu .edu-details p {
+    margin: 15px 0px;
+}
+.edu-details .edu-major {
+    font-size: 18px;
+    font-weight: 500;
+}
+.edu-details .duration i {
+    color: rgb(33, 190, 138);
+    margin-right: 15px;
+}
+.main-content .last {
+    border-bottom: none;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+.footer .ft-container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(33, 190, 138);
+    border-radius: 8px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.footer .ft-container p {
+    color: #fff;
+    padding: 5px 0px;
+}
